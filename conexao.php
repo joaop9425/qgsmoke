@@ -1,10 +1,10 @@
 <?php
 //error_reporting (E_ALL & ~ E_NOTICE & ~ E_DEPRECATED);
 
-$hostname_localhost = "localhost";
-$database_localhost = "qgsmoke";
-$username_localhost = "root";
-$password_localhost = "";
+$hostname_localhost = ""; //Onde está localizado o Servidor
+$database_localhost = ""; //Qual é o BD do projeto
+$username_localhost = ""; //User do BD
+$password_localhost = ""; //Passwd do BD
 
 $localhost = mysql_pconnect($hostname_localhost, $username_localhost, $password_localhost) or trigger_error(mysql_error(),E_USER_ERROR); 
 
